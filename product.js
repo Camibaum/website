@@ -10,7 +10,7 @@ function showProduct(data) {
                 <img class="${data.soldout && "soldout-img"}" src="https://kea-alt-del.dk/t7/images/webp/640/${productId}.webp" alt="tshirt" id="productImage">
             </div>
             <div class="product_info ${data.discount && "produkt_discount"}${data.soldout && "lagerstatus"}">
-                <h1>Product Information</h1>
+                <h2>Product Information</h2>
                 <h3>Model name</h3> 
                 <p class="indryk">${data.productdisplayname}</p>
                  <h3>Inventory number</h3>
@@ -33,7 +33,7 @@ function showProduct(data) {
         </div>
 
             <div class="product_purchase">
-                <h1>${data.productdisplayname}</h1>
+                <h2>${data.productdisplayname}</h2>
                 <p>
                 ${data.articletype}</p>
                 <div class="price">

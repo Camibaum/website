@@ -50,9 +50,9 @@ function showProductList(data) {
            <p class="${product.discount && "strik"}">${product.price} kr.</p>
             <p class="tilbud ${product.discount && "isOnSale"}"> Now ${Math.floor(product.price - (product.price * product.discount) / 100)}kr.</p>
         </div>
-          <a class="read_more" href="product.html?id=${product.id}">Read more</a>
+          <a class="read_more" href="product.html?id=${product.id}">Read more →</a>
         <div class="discount ${product.discount && "isOnSale"}">
-        <p>${product.discount}%</p>
+        <p>${product.discount}% OFFER</p>
         </div>
         <div class="soldout ${product.soldout && "isSoldOut"}">
         <p>Sold out</p>
